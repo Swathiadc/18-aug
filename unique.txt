@@ -1,0 +1,36 @@
+ main()
+{
+ int i,a[5],n,temp;
+    printf("enter size\n");
+    scanf("%d",&n);
+    printf("enter elements\n");
+    for(i=0;i<n;i++)
+    scanf("%d",&a[i]);
+    for(i=0;i<n;i++)
+    {
+            if (a[i]==temp)
+            printf("unique");
+            else
+            printf("duplicate");
+             break;
+    
+        }
+    
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                
